@@ -1,0 +1,14 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This is an assigment calculator",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anabel Guindanao",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

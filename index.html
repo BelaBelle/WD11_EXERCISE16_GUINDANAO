@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <title>EXERCISE 16</title>
+
+</head>
+<body>
+    <br><br><br>
+    <div class="container text-center border bg-fontlight">
+        <br>
+        <h1 class="text-darky">Mass Unit Converter</h1>
+        <br>
+        <!-- <h4 class="text-fontdark">KILOGRAMS</h4> -->
+    
+        <input type="number" id="kilogramsInput" placeholder="KILOGRAMS" style="width: 250px;">
+        <button onclick="pounds(); ounces(); tonne();" class="btn btn-darky text-fontlight">CONVERT</button>
+        <button onclick="document.getElementById('kilogramsInput').value = ''; document.getElementById('poundsOutput').innerHTML = ''; document.getElementById('ouncesOutput').innerHTML = ''; document.getElementById('tonneOutput').innerHTML = '';" class="btn btn-darky text-fontlight">CLEAR</button>
+
+        <br><br><br>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2">
+                <h4 class="text-darky"><span id="poundsOutput" ></span> pounds</h4>
+                <button onclick="pounds()" class="btn btn-pinky text-fontlight">POUNDS</button>
+                
+            </div>
+            <div class="col-2">
+                <h4 class="text-darky"></pclass> <span id="ouncesOutput" ></span> ounces</h4>
+                <button onclick="ounces()" class="btn btn-mint text-fontlight">OUNCES</button>
+                
+            </div>
+            <div class="col-2">
+                <h4 class="text-darky"><span id="tonneOutput" ></span> tonne</h4>
+                <button onclick="tonne()" class="btn btn-redkiss text-fontlight">TONNE</button>
+                
+            </div>
+            
+        </div>
+
+   
+       <br><br>
+    </div>
+   
+</body>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>

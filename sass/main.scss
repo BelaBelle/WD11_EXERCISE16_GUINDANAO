@@ -1,0 +1,15 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$change-theme-colors: (
+    "mint" : rgb(18, 230, 209),
+    "pinky" : rgb(250, 64, 191),
+    "redkiss" :rgb(251, 62, 68),
+    "fontlight": rgb(251, 247, 169),
+    "darky": rgb(100, 1, 19)
+);
+
+$theme-colors: map-merge($change-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
